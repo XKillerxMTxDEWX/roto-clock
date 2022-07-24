@@ -1,2 +1,2 @@
 # roto-clock
-Arduino powered clock display that spins.
+Arduino powered spinning clock display.
