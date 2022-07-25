@@ -1,0 +1,7 @@
+Rotating clock display.
+HH:MM:SS format with hands.
+Possible current date.
+6" radius
+RGB LED support preferable
+3D printed base with integral motor and magnets for power.
+PCB coils for picking up energy from magnets in base.
