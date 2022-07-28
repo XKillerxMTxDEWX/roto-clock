@@ -124,9 +124,9 @@ def main():
     Radius = 0            # start radius in mm
     Sides = 50            # smoothness of segments
     StartAngle = 0.0        # degrees
-    TrackWidth = 1       # width of track
-    TrackDistance = 0.5       # distance between tracks edges
-    Turns =  100             # number of turns in the spiral
+    TrackWidth = 0.25       # width of track
+    TrackDistance = 0.3       # distance between tracks edges
+    Turns =  15             # number of turns in the spiral
     Spin = -1               # ccw = +1, cw = -1
     Layer = "fcu"           # layer to draw the spiral on
     

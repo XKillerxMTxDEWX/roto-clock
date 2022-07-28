@@ -34,7 +34,7 @@ def draw_arcs(coil_parameters):
             coil_parameters[key] = round((coil_parameters[key] / 39.37), 5)
             
     string_out = ""
-    for i in range(5):
+    for i in range(10):
         sector_angle = 90 - 2 * atan(coil_parameters["end_gap"] / (4 * (coil_parameters["radius"] + (i * coil_parameters["track_distance"]))))
         end_x = round(coil_parameters["radius"] * -sin(sector_angle), 5)
         end_y = round(coil_parameters["radius"] * cos(sector_angle), 5)
